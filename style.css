@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(218, 199, 247);
+  }
+  
+  .topheader {
+    height: 72px;
+    background: rgb(66, 60, 125);
+    color: white;
+    display: flex;
+    margin-bottom: auto;
+    min-width: 95%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: rgb(66, 60, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    min-width: 100%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  ul li {
+    display: inline;
+    justify-content: space-between;
+    align-self: flex-end;
+    list-style-type: none;
+  }
+
+  a {
+    color: rgb(161, 159, 159);
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+  }
+
+  .mainheader { 
+    display: flex;
+    background-color:rgb(156, 152, 189);
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    text-align: left;
+    overflow-wrap: break-word
+  }
+
+  img {
+  height: auto;
+  max-width: 100%;
+  }
+
+  .newsletter {
+    background-color: rgb(96, 24, 138);
+    max-width: 40%;
+    color: white;
+    padding: 20px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   max-width: 50%;
+   border: 1px solid rgb(0, 0, 0);
+  }
+
+  .boxes {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+    align-self: center;
+    justify-content: center;
+
+  }
+
+  .quote {
+    font-size: 20px;
+    margin-top: 50px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(background.jpg);
+    background-position: center;
+    font-style: italic;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 100%;
+  }
+  
+  .card {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid rgb(66, 60, 125);
+    background-color: rgb(156, 152, 189);
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .caption {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+  }
+
+  .new {
+    padding-top: 20px;
+  }
